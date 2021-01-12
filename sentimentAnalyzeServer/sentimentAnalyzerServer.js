@@ -131,7 +131,7 @@ app.get("/text/sentiment", (req,res) => {
  return res.send("Could not do desired operation "+err);
  });
  
-}});
+});
  
 let server = app.listen(8080, () => {
  console.log('Listening', server.address().port)
